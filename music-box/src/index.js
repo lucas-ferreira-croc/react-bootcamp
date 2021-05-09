@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import App from './App';
+
 //import NavBar from './components/NavBar';
 //import HomePage from './components/HomePage';
 
@@ -12,7 +14,7 @@ import MinhasMusicas from './pages/MinhasMusicas';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MinhasMusicas/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,8 +1,9 @@
+import React from 'react';
+import Routes from '../src/routes';
+
 function App() {
   return (
-    <p>
-      Hello World
-    </p>
+    <Routes/>
   );
 }
 

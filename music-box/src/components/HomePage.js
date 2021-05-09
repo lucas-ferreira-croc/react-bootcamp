@@ -1,5 +1,7 @@
+  
 import React from 'react';
-import img from '../assets/2021-1_assets_bootcamp-react_music-box/images/index-img.png'; 
+import Button from '../components/Button';
+import imagem from '../assets/images/index-img.png';
 
 function HomePage() {
     return (
@@ -11,9 +13,9 @@ function HomePage() {
                         <h3>Contribua e fique por dentro das novidades  </h3>
                     </div>
                     <div className="img-index"></div>
-                    <button className="btn-green">Conhecer agora</button>
+                        <Button lado="left" destino="/minhas-musicas">Conhecer agora</Button>
                 </div>
-                <img src={img} alt="" className="index-img" />
+                <img src={imagem} alt="" className="index-img" />
             </div>
         </div>
     );
